@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to bottom, #FFA500, #FFF8EE);
+    background: linear-gradient(to bottom, #ffee00, #ffffff);
     user-select: none;
   }
   
@@ -46,7 +46,7 @@ html, body {
     transition: filter 0.3s ease;
   }
   .logo-svg:hover {
-    filter: drop-shadow(0 0 9px rgba(255, 255, 255, 0.9));
+    filter: drop-shadow(0 0 9px rgba(113, 67, 17, 0.9));
   }
   
   .social-links {
@@ -62,17 +62,17 @@ html, body {
     margin-bottom: 0;
   }
   .insta-svg {
-    width: 120px;
-    margin-bottom: -10px;
+    width: 133px;
+margin-bottom: -5px;
     transition: filter 0.3s ease;
   }
   .mail-svg {
-    width: 85px;
+    width: 130px;
     transition: filter 0.3s ease;
   }
   .insta-svg:hover,
   .mail-svg:hover {
-    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.9));
+    filter: drop-shadow(0 0 4px rgba(113, 67, 17, 0.9));
   }
   
   .box {
@@ -90,8 +90,8 @@ html, body {
   }
   
   .box:hover .content {
-    border: 2px dashed white;
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    border: 2px dashed rgba(255, 255, 255, 0);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0);
   }
   
   .box img:not(.openButton) {
@@ -106,8 +106,8 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60px;
-    height: 60px;
+    width: 0.1px;
+    height: 0.1px;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -125,11 +125,11 @@ html, body {
   }
   
   .box:hover .openButton {
-    opacity: 1;
+    opacity: 0;
   }
   
   .project-image {
-    pointer-events: none; /* 그대로 유지 */
+    pointer-events: none; 
   }
   
 
